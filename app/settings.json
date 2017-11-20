@@ -1,0 +1,84 @@
+{
+  "stations": [
+    {
+      "name": "105HipHop", 
+      "url": "http://shoutcast.unitedradio.it:1113/listen.pls"
+    }, 
+    {
+      "name": "Alpha Radio Belarus", 
+      "url": "http://86.57.151.4:8009/listen.pls"
+    }, 
+    {
+      "name": "Cadena SER Madrid", 
+      "url": "http://4123.live.streamtheworld.com:443/CADENASER_SC"
+    }, 
+    {
+      "name": "CampusFM Essen Germany", 
+      "url": "http://132.252.179.253:8000/listen.pls"
+    },
+    {
+      "name": "City Music", 
+      "url": "http://shoutcast01.edpnet.net:10150/listen.pls"
+    }, 
+    {
+      "name": "Country 108", 
+      "url": "http://www.country108.com/listen.pls"
+    }, 
+    {
+      "name": "Horizon FM Tenerife and Canaries", 
+      "url": "http://uk1.internet-radio.com:15614/listen.pls"
+    },
+    {
+      "name": "JazzRadio Budapest", 
+      "url": "http://194.38.105.21:8002/listen.pls"
+    }, 
+    {
+      "name": "LSRfm.com", 
+      "url": "http://lush.wavestreamer.com:6648/"
+    }, 
+    {
+      "name": "Loca FM", 
+      "url": "http://audio-online.net:23500/listen.pls"
+    }, 
+    {
+      "name": "Luxfunk Radio", 
+      "url": "http://live.luxfunkradio.com:8200/listen.pls"
+    }, 
+    {
+      "name": "M2 80 France", 
+      "url": "http://www.m2radio.fr/pls/m280.m3u"
+    }, 
+    {
+      "name": "M2 90 France", 
+      "url": "http://www.m2radio.fr/pls/m290.m3u"
+    }, 
+    {
+      "name": "MFM Paris", 
+      "url": "http://mfm.ice.infomaniak.ch/playlists/mfm-128.mp3.m3u"
+    }, 
+    {
+      "name": "RFI Afrique", 
+      "url": "http://www.tv-radio.com/station/rfiafrique-mp3/rfiafrique-mp3-64k.pls"
+    }, 
+    {
+      "name": "RMC 80", 
+      "url": "http://shoutcast.unitedradio.it:1401/listen.pls"
+    }, 
+    {
+      "name": "RMC 90", 
+      "url": "http://shoutcast.unitedradio.it:1403/listen.pls"
+    },
+    {
+      "name": "Radio Center Love", 
+      "url": "http://212.18.63.51:8060/listen.pls"
+    }, 
+    {
+      "name": "Radio Student 100.5 FM Zagreb, Croatia", 
+      "url": "http://www.radiostudent.hr/AAC128.pls"
+    }, 
+    {
+      "name": "Rocky FM", 
+      "url": "http://www.rockyfm.com/listen.pls"
+    }
+  ]
+}

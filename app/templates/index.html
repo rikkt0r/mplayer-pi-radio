@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="container">
+        <h1 class="hello">Hello,</h1>
+        <h3 class="logger">
+            {% if active_station %}
+                Now playing: {{ active_station }}
+            {% else %}
+                Nothing is being played right now.
+            {% endif %}
+        </h3>
+
+        <div id="pacman"></div>
+
+        <button class="btn" id="btn-stop">STOP, hammer time.</button>
+
+        <h3 style="color: #8A4C7A; margin-top: 60px; font-size: 1.8em; letter-spacing: 20px; text-transform: uppercase">List of your stations</h3>
+
+        <div id="stations" class="grid">
+            {% for s in stations %}
+            <div class="col" style="height: 100px"><a href="#stations" data-url="{{s.url}}">{{s.name}}</a></div>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block scripts %}
+
+    <script src="/static/js/stations.js"></script>
+
+    <script>
+        Stations.registerEvents();
+        Stations.registerIntervals();
+    </script>
+
+{% endblock %}
